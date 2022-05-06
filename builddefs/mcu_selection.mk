@@ -386,7 +386,7 @@ ifneq ($(findstring STM32F411, $(MCU)),)
 
   # Board: it should exist either in <chibios>/os/hal/boards/,
   # <keyboard_dir>/boards/, or drivers/boards/
-  BOARD ?= BLACKPILL_STM32_F411
+  BOARD ?= ST_NUCLEO144_F412ZG
 
   USE_FPU ?= yes
 
